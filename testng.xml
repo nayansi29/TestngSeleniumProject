@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Orange Hrm"  parallel="methods" thread-count="2">
+    <test name="Demo of Orange Hrm" >
+<!--        <groups>-->
+<!--            <run>-->
+<!--               <include name="sanity"/>-->
+<!--&lt;!&ndash;                <include name="regression"/>&ndash;&gt;-->
+<!--            </run>-->
+<!--        </groups>-->
+        <classes>
+            <class name="Tests.LoginTest">
+            </class>
+<!--            <class name="Tests.Demo1"></class>-->
+
+
+            <class name="Tests.DashboardTest"/>
+        </classes>
+    </test>
+
+<!--    <test name="Demo of Orange Hrm1 " >-->
+<!--        &lt;!&ndash;        <groups>&ndash;&gt;-->
+<!--        &lt;!&ndash;            <run>&ndash;&gt;-->
+<!--        &lt;!&ndash;               <include name="sanity"/>&ndash;&gt;-->
+<!--        &lt;!&ndash;&lt;!&ndash;                <include name="regression"/>&ndash;&gt;&ndash;&gt;-->
+<!--        &lt;!&ndash;            </run>&ndash;&gt;-->
+<!--        &lt;!&ndash;        </groups>&ndash;&gt;-->
+<!--        <classes>-->
+<!--&lt;!&ndash;            <class name="Tests.PriorityTest">&ndash;&gt;-->
+<!--&lt;!&ndash;            </class>&ndash;&gt;-->
+<!--            <class name="Tests.DashboardTest"></class>-->
+
+
+<!--            &lt;!&ndash;            <class name="Tests.DashboardTest"/>&ndash;&gt;-->
+<!--        </classes>-->
+<!--    </test>-->
+    <!-- Test -->
+</suite> <!-- Suite -->
